@@ -30,15 +30,15 @@ let x1 = 10;
 
 /**
  * Define la estructura del objeto Usuario
- * @typedef {Object} User
- * @property {number} id
- * @property {string} nombre
- * @property {number} edad
+ * @typedef {Object} Usuario
+ * @property {number} id ID del usuario
+ * @property {string} nombre Nombre del usuario
+ * @property {number} edad Edad del usuario
  */
 
 /**
  * Nuevo usuario
- * @type {User}
+ * @type {Usuario}
  */
 let newUser1 = {
 	id: 1,
@@ -48,7 +48,7 @@ let newUser1 = {
 
 /**
  * Nuevo usuario
- * @type {User}
+ * @type {Usuario}
  */
 let newUser2 = {
 	id: 2,
