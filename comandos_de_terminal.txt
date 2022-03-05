@@ -1,0 +1,10 @@
+Requerimientos
+	NodeJS
+	NPM
+
+Instalación
+	sudo npm i -g jsdoc
+
+Uso
+	Generar la documentación de un archivo
+		jsdoc archivo.js
