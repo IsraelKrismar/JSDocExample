@@ -5,28 +5,28 @@
  */
 
 /**
- * @description Descripción de la constante x
+ * @description Número de rondas por partida
  * @type {number}
  * @constant
  */
-const x = 10;
+const N_RONDAS = 10;
 
 /**
- * @description Descripción de la constante y
+ * @description Número de preguntas por ronda
  * @type {number}
  * @constant
  */
-const y = 10;
+const N_PREGUNTAS = 4;
 
 /**
  * @module Variables
  */
 
 /**
- * @description Descripción de la variable x1
+ * @description Descripción de la variable x
  * @type {number}
  */
-let x1 = 10;
+let x = 10;
 
 /**
  * @description Punto en un espacio coordenado
