@@ -82,7 +82,7 @@ let nuevoUsuario2 = {
 
 /**
  * @description Crea e imprime la gráfica en pantalla
- * @todo Implementar objeto grafica
+ * @todo Implementar la clase Grafica
  */
 function imprimirGrafica() {
 	// ts-expect-error Espera un error en el siguiente renglón
