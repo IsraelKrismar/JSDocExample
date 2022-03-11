@@ -8,3 +8,8 @@ Instalación
 Uso
 	Generar la documentación de un archivo
 		jsdoc archivo.js
+
+Templates
+	BetterDocs
+		npm install --save-dev better-docs
+		jsdoc archivo.js -t ./node_modules/better-docs
