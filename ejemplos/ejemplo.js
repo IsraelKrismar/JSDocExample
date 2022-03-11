@@ -81,11 +81,15 @@ let nuevoUsuario2 = {
  */
 
 /**
- * @description Imprime la gráfica en pantalla
+ * @description Crea e imprime la gráfica en pantalla
  * @todo Implementar objeto grafica
  */
 function imprimirGrafica() {
-	// ts-ignore Ignora el siguinente renglon del checado
+	// ts-expect-error Espera un error en el siguiente renglón
+	//@ts-expect-error
+	let grafica = new Grafica();
+
+	// ts-ignore Ignora el siguinente renglón
 	//@ts-ignore
 	grafica.imprimir();
 }
